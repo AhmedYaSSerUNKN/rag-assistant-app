@@ -1,0 +1,12 @@
+[
+  {"question": "What is retrieval-augmented generation and why is it used?", "expected_keywords": ["retriev", "generat"], "expected_source_hint": ""},
+  {"question": "Which embedding model is recommended for semantic search on short chunks?", "expected_keywords": ["embedding"], "expected_source_hint": ""},
+  {"question": "How does chunk overlap affect retrieval quality?", "expected_keywords": ["overlap", "chunk"], "expected_source_hint": ""},
+  {"question": "What is a vector database used for in this pipeline?", "expected_keywords": ["vector"], "expected_source_hint": ""},
+  {"question": "How is cosine similarity computed between a question and a chunk?", "expected_keywords": ["cosine", "similar"], "expected_source_hint": ""},
+  {"question": "What causes an LLM to hallucinate an answer?", "expected_keywords": ["hallucinat"], "expected_source_hint": ""},
+  {"question": "What are the main limitations described in the documents?", "expected_keywords": ["limitation"], "expected_source_hint": ""},
+  {"question": "Summarise the evaluation method used in the documents.", "expected_keywords": ["evaluat"], "expected_source_hint": ""},
+  {"question": "What preprocessing steps are applied to the raw text?", "expected_keywords": ["clean", "text"], "expected_source_hint": ""},
+  {"question": "Who won the football World Cup in 2014?", "expected_keywords": ["could not find"], "expected_source_hint": "OUT_OF_SCOPE"}
+]

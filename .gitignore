@@ -1,0 +1,39 @@
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Secrets (NEVER commit) ---
+.env
+*.env
+!.env.example
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Raw document corpus (see README "Data" for how to obtain it) ---
+data/raw/*
+!data/raw/.gitkeep
+
+# --- Vector stores (rebuilt by the notebook; may exceed 50 MB) ---
+data/vector_store/
+backend/data/vector_store/*
+!backend/data/vector_store/.gitkeep
+
+# --- Model / HF caches ---
+.cache/
+models/
+*.bin
+*.onnx
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
