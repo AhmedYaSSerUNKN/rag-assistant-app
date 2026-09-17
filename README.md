@@ -237,9 +237,18 @@ after your run.**
 
 | # | Question | Retrieved source | Correct? |
 |---|---|---|---|
-| 1 | what is RAG? | yes | Yes |
-| 2 | what is BERT? | yes | yes |
-| 3 | how are you? | I cannot find the answer | Yes — correctly refused |
+| 1 | what is RAG? | rag_knowledge_intensive_nlp.pdf | Yes |
+| 2 | what is BERT? | sentence_bert.pdf | yes |
+| 3 | What is the self-attention mechanism in the Transformer architecture? | attention_is_all_you_need.pdf | yes |
+| 4 | How does BERT differ from OpenAI GPT in its pre-training approach? | bert.pdf | yes |
+| 5 | What are the two pre-training tasks used to train BERT? | bert.pdf | yes |
+| 6 | What is the main limitation of standard RAG that Self-RAG attempts to address? | self_rag.pdf | yes |
+| 7 | What role do reflection tokens play in Self-RAG | self_rag.pdf | yes |
+| 8 | What is the purpose of the RAGAS evaluation framework? | ragas_evaluation.pdf | yes |
+| 9 | why does the Transformer use multi-head attention instead of a single attention function? | attention_is_all_you_need.pdf | yes |
+| 10 | How does the positional encoding in the original Transformer work? | attention_is_all_you_need.pdf | yes |
+| 11 | What is the current population of Tokyo? | none | yes- refused |
+| 12 | how are you? | none | Yes — correctly refused |
 
 **Failure cases & mitigations.** Weak-vocabulary questions retrieved loosely related chunks and
 tempted the model to answer from pre-training → fixed with a relevance floor plus a mandated refusal
