@@ -230,16 +230,16 @@ after your run.**
 | Metric | Result |
 |---|---|
 | Questions tested | 10 |
-| Relevant context retrieved | _x_/10 |
-| Grounded (cited or correctly refused) | _x_/10 |
-| Fully correct | _x_/10 |
-| Median latency | _x_ s |
+| Relevant context retrieved | 10/10 |
+| Grounded (cited or correctly refused) | 9/10 |
+| Fully correct | 5/10 |
+| Median latency | 0.6 s |
 
 | # | Question | Retrieved source | Correct? |
 |---|---|---|---|
-| 1 | … | … | Yes |
-| … | … | … | … |
-| 10 | _(out-of-scope control)_ | (none) | Yes — correctly refused |
+| 1 | what is RAG? | yes | Yes |
+| 2 | what is BERT? | yes | yes |
+| 3 | how are you? | I cannot find the answer | Yes — correctly refused |
 
 **Failure cases & mitigations.** Weak-vocabulary questions retrieved loosely related chunks and
 tempted the model to answer from pre-training → fixed with a relevance floor plus a mandated refusal
@@ -252,9 +252,9 @@ weak, since top-k retrieval only sees 4 passages.
 
 Replace these placeholders with real screenshots in `docs/screenshots/`:
 
-| Streamlit chat | Swagger `/docs` |
+| Streamlit chat | Screenshot `/docs` |
 |---|---|
-| ![Chat](docs/screenshots/frontend_chat.png) | ![Swagger](docs/screenshots/swagger_query.png) |
+| ![Video](https://drive.google.com/file/d/1h_Cfwb_mUk9OpCVUfkuH_-Ln5CxSP_Q9/view?usp=sharing) | ![Screenshot](https://drive.google.com/file/d/1SuvRu5BKga_X0UIPQnIvC9B_59Ul7o-1/view?usp=sharing) |
 
 ## 10. Troubleshooting
 
