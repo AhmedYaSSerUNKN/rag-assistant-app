@@ -75,7 +75,7 @@ rag-assistant-app/
 
 ## 4. Domain & Data
 
-**Domain:** _<edit this: e.g. machine-learning / NLP research papers>_
+**Domain:** Machine Learning / NLP Research Papers — foundational and RAG-specific literature (Transformer, BERT, RAG, Self-RAG, RAGAS).
 
 **Corpus:** _N_ PDFs, _M_ pages, ~_X_ chunks. Documents are text-extractable; the loader flags any
 file yielding under ~100 characters per page as `needs_ocr?` and excludes it.
