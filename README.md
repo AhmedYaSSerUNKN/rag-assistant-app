@@ -260,7 +260,7 @@ weak, since top-k retrieval only sees 4 passages.
 
 | Streamlit chat | Screenshot `/docs` |
 |---|---|
-| ![Video](https://drive.google.com/file/d/1h_Cfwb_mUk9OpCVUfkuH_-Ln5CxSP_Q9/view?usp=sharing) | ![Screenshot](https://drive.google.com/file/d/1SuvRu5BKga_X0UIPQnIvC9B_59Ul7o-1/view?usp=sharing) |
+| !▶ [Watch the full walkthrough video](https://drive.google.com/file/d/1h_Cfwb_mUk9OpCVUfkuH_-Ln5CxSP_Q9/view?usp=sharing) | ![Screenshot](https://drive.google.com/file/d/1SuvRu5BKga_X0UIPQnIvC9B_59Ul7o-1/view?usp=sharing) |
 
 ## 10. Troubleshooting
 
