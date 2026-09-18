@@ -256,11 +256,9 @@ Citations were occasionally dropped on long answers → `temperature=0` and an e
 citation rule in the system prompt. Aggregate questions ("list every method mentioned") remain
 weak, since top-k retrieval only sees 4 passages.
 
-## 9. Screenshots
+## 9. Video Walkthrough
 
-| Streamlit chat | Screenshot `/docs` |
-|---|---|
-| !▶ [Watch the full walkthrough video](https://drive.google.com/file/d/1h_Cfwb_mUk9OpCVUfkuH_-Ln5CxSP_Q9/view?usp=sharing) | ![Screenshot](https://drive.google.com/file/d/1SuvRu5BKga_X0UIPQnIvC9B_59Ul7o-1/view?usp=sharing) |
+| !▶ [Watch the full walkthrough video](https://drive.google.com/file/d/1h_Cfwb_mUk9OpCVUfkuH_-Ln5CxSP_Q9/view?usp=sharing) 
 
 ## 10. Troubleshooting
 
